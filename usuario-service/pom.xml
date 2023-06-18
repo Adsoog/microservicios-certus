@@ -8,10 +8,10 @@
 		<version>2.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.motoservice</groupId>
-	<artifactId>moto-service</artifactId>
+	<groupId>usuario-service</groupId>
+	<artifactId>usuario-service</artifactId>
 	<version>1.0</version>
-	<name>moto-service</name>
+	<name>usuario-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -42,6 +42,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
